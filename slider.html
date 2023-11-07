@@ -1,63 +1,109 @@
-<style>
-    #oblast {
-        margin: 0 auto;
-        width: 100%;
-        overflow: hidden;
-    }
+<link
+  rel="stylesheet"
+  href="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/c1087363-9025-4c37-8d5e-983a32a007e9/image-tools-section/images-slider.css"
+/>
 
-    #imageContainer {
-        height: 10%;
-        position: relative;
-        width: 200%;
-        display: flex;
-        animation: move 10s linear infinite;
-    }
-
-    .image {
-        width: calc(100% / 14);
-        height: 100%;
-    }
-
-    @keyframes move {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-50%);
-        }
-    }
-</style>
-
+<!-- CHANGE THE VALUES OF THE src ATTRIBUTE -->
 <div id="oblast">
-    <div id="imageContainer">
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/brain.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/cyber-security.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/development.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/java.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/machine-learning.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/neural.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/programming.png" alt=""></div>
-        <!--COPIES-->
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/brain.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/cyber-security.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/development.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/java.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/machine-learning.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/neural.png" alt=""></div>
-        <div class="image"><img style="width: 25px; height: 25px;"
-                                src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/programming.png" alt=""></div>
+  <div id="imageContainer">
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/brain.png"
+        alt=""
+      />
     </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/cyber-security.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/development.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/java.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/machine-learning.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/neural.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/programming.png"
+        alt=""
+      />
+    </div>
+    <!--COPIES-->
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/brain.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/cyber-security.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/development.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/java.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/machine-learning.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/neural.png"
+        alt=""
+      />
+    </div>
+    <div class="image">
+      <img
+        style="width: 25px; height: 25px"
+        src="https://codefinity-content-media.s3.eu-west-1.amazonaws.com/Java+Advanced+media/programming.png"
+        alt=""
+      />
+    </div>
+  </div>
 </div>
